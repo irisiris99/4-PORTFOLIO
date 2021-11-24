@@ -10,7 +10,7 @@ function onGeoOk(position) {
 	.then(Response => Response.json()
 	.then(data => {
 		city.innerText = data.name;
-		weather.innerText = data.weather[0].main;
+		weather.innerText = data.weather[0].main +" /";
 	}));
 }
 function onGeoError() {
