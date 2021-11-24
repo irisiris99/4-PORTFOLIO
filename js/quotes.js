@@ -49,5 +49,5 @@ const todaysQuote = quotes[Math.floor(Math.random() * quotes.length)];
 quote.innerText = todaysQuote.quote;
 author.innerText = todaysQuote.author;
 
-quote.style.fontSize = "20px";
-author.style.fontSize = "16px";
+quote.style.fontSize = "16px";
+author.style.fontSize = "14px";
