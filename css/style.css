@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+input {
+  all: unset;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+input::placeholder {
+  color: white;
+}
+
+#login-form {
+  align-self: flex-start;
+  margin-left: 5%;
+  position: absolute;
+  top: 25%;
+  font-weight: bold;
+  font-size: 30px;
+}
+.border {
+  border-bottom: 1px solid white;
+}
+
+#greeting {
+  position: absolute;
+  top: 15%;
+}
+
+#clock {
+  font-size: 100px;
+  position: absolute;
+  top: 25%;
+}
+
+#todo-form {
+  font-size: 18px;
+  padding: 12px;
+  position: absolute;
+  top: 42%;
+  text-align: center;
+}
+
+#todo-list {
+  width: 270px;
+  height: 20%;
+  position: absolute;
+  top: 50%;
+  left: 43%;
+}
+
+#todo-list li {
+  width: 270px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 40px;
+}
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+#quote {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-weight: bold;
+  line-height: 36px;
+  position: absolute;
+  left: 0%;
+  top: 90%;
+}
+
+#weather {
+  font-size: 14px;
+  font-weight: bold;
+  position: absolute;
+  top: 95%;
+  left: 90%;
+}
