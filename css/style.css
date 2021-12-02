@@ -107,6 +107,6 @@ button {
 #weather {
   font-size: 14px;
   font-weight: bold;
-  position: relative;
-  top: 30%;
+  position: absolute;
+  top: 85%;
 }
